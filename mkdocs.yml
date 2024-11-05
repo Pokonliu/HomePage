@@ -4,7 +4,10 @@ site_name: My Docs
 site_url: https://mydomain.org/mysite
 theme:
   language: zh
+
   name: material
+  
+  favicon: assets/favicon.ico
 
   icon:
     logo: simple/alienware
@@ -25,6 +28,28 @@ theme:
         name: Light mode
       primary: blue
       accent: deep orange
+
+  features:
+    - navigation.footer
+    - navigation.top
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.path
+
+plugins:
+  - search
+  - blog
+
+copyright: Copyright &copy; 1995 - 2024 LTY
+
+extra:
+  social:
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:<302702801@qq.com>
+    - icon: fontawesome/brands/weixin
+      link: mailto:<koopdown>
 
 markdown_extensions:
   - attr_list
