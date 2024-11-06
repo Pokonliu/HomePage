@@ -1,7 +1,18 @@
 # yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
 
-site_name: My Docs
+# Project information
+site_name: LTY's Homepage
 site_url: https://mydomain.org/mysite
+site_author: Liu Tianyang
+
+# Repository
+repo_name: Pokonliu/HomePage
+repo_url: https://github.com/Pokonliu/HomePage
+
+# Copyright
+copyright: Copyright &copy; 1995 - 2024 LTY
+
+# Configuration
 theme:
   language: zh
 
@@ -9,40 +20,80 @@ theme:
   
   favicon: assets/favicon.ico
 
+  font:
+    text: Roboto
+    code: Roboto Mono
+
   icon:
     logo: simple/alienware
 
   palette:
-    # Dark Mode
-    - scheme: slate
+    - media: "(prefers-color-scheme)"
       toggle:
-        icon: material/weather-sunny
-        name: Dark mode
-      primary: green
-      accent: deep purple
-
-    # Light Mode
-    - scheme: default
+        icon: material/link
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
       toggle:
-        icon: material/weather-night
-        name: Light mode
-      primary: blue
-      accent: deep orange
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off
+        name: Switch to system preference
 
   features:
+    - announce.dismiss
+
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    # - content.code.select
+    # - content.footnote.tooltips
+    # - content.tabs.link
+    - content.tooltips
+    
+    # - header.autohide
+    
+    # - navigation.expand
     - navigation.footer
-    - navigation.top
-    - navigation.tabs
-    - navigation.tabs.sticky
+    - navigation.indexes
     - navigation.instant
+    # - navigation.instant.prefetch
     - navigation.instant.progress
+    # - navigation.prune
+    - navigation.sections
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
     - navigation.path
+
+
+    - search.highlight
+    - search.share
+    - search.suggest
+    
+    - toc.follow
+    # - toc.integrate
+
+nav:
+  - HOME: index.md
+  - LCMS: LCMS/index.md
+  - VIE: VIE/index.md
+  - RK3588: RK3588/index.md
+  - AI: AI/index.md
+  - BLOG: blog/index.md
 
 plugins:
   - search
   - blog
-
-copyright: Copyright &copy; 1995 - 2024 LTY
 
 extra:
   social:

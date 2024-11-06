@@ -1,75 +1,24 @@
-# Welcome to MkDocs
+# 刘天阳的作战中心
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## LCMS
 
-## Commands
+- 每日一题
+- 数据结构、算法笔记
 
-- `mkdocs new [dir-name]` - Create a new project.
-- `mkdocs serve` - Start the live-reloading docs server.
-- `mkdocs build` - Build the documentation site.
-- `mkdocs -h` - Print help message and exit.
+## VIE
 
-## Project layout
+- 工业纺织项目架构 + 实现
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## RK3588
 
-## 中文测试
+- 嵌入式 AI 实现、部署细节
 
-I like to drink :beers: after i played :soccer:
+## AI
 
-## Commands
+- CV
+- NLP
+- 多模态
 
-- `mkdocs new [dir-name]` - Create a new project.
-- `mkdocs serve` - Start the live-reloading docs server.
-- `mkdocs build` - Build the documentation site.
-- `mkdocs -h` - Print help message and exit.
+## BLOG
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
-
-## 中文测试
-
-I like to drink :beers: after i played :soccer:
-
-## Commands
-
-- `mkdocs new [dir-name]` - Create a new project.
-- `mkdocs serve` - Start the live-reloading docs server.
-- `mkdocs build` - Build the documentation site.
-- `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
-
-## 中文测试
-
-I like to drink :beers: after i played :soccer:
-
-## Commands
-
-- `mkdocs new [dir-name]` - Create a new project.
-- `mkdocs serve` - Start the live-reloading docs server.
-- `mkdocs build` - Build the documentation site.
-- `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
-
-## 中文测试
-
-I like to drink :beers: after i played :soccer:
+- 记录生活、学习
